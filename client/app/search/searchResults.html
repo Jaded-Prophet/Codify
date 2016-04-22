@@ -2,7 +2,6 @@
 <div class="container-search-results">
   <div id="search-results-title">Your search results...</div>
 
-
   <!-- Search results entry -->
   <div class="profile-text" ng-hide="subjectLength">Sorry, no matches!</div>
 
@@ -14,20 +13,19 @@
       visible="c.visible" geodesic="c.geodesic" editable="c.editable" draggable="c.draggable" clickable="c.clickable" control="c.control"></ui-gmap-circle>
   </ui-gmap-google-map>
 
-
   <div class="container-tutor-card" ng-repeat="tutor in tutorData">
 
     <div class="profile-box">
       <div class="profile-picture" ng-switch="tutor.imageId">
 
-          <img ng-switch-when="undefined" ng-src="../../default-user.jpg" />
-          <img ng-switch-default="tutor.imageId !== '' " ng-src="api/users/img/{{tutor.imageId}}" />
+        <img ng-switch-when="undefined" ng-src="../../default-user.jpg" />
+        <img ng-switch-default="tutor.imageId !== '' " ng-src="api/users/img/{{tutor.imageId}}" />
 
       </div>
 
       <div class="profile-content">
         <div class="profile-text"><a ng-href="/tutor/{{tutor.username}}" /><span class="tutor-name">{{tutor.name}}</span></a></div>
-
+        <div class="profile-text"><span class="tutor-distance">{{tutor.distance}} from you</span></div>
         <div class="profile-text"><span class="tutor-bio">{{tutor.bio.substring(0, 160) + '...'}}</span></div>
 
         <div class="profile-text">
