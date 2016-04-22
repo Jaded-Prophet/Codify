@@ -294,6 +294,12 @@ input[type="checkbox"]:focus{
   white-space: pre-wrap;
 }
 
+.tutor-distance {
+  font-size: 1.4em;
+  color: #777777;
+  white-space: pre-wrap;
+}
+
 .tutor-city {
   font-size: 1.5em;
   color: #F89406;
