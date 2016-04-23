@@ -53,7 +53,7 @@ app.controller('SearchController', function ($scope, $http, SearchService, $loca
             allTutorCoordinates.push(tutorCoords);
           }
           // get all distances of tutors from user
-          $http.get("https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=" + userCoords + "&destinations=" + allTutorCoordinates.join('%7C') + "&key=AIzaSyAzoQMg9Pt-fERCwyXdhxwwGGNXlzty9Ng")
+          $http.get("https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=" + userCoords + "&destinations=" + allTutorCoordinates.join('%7C') + "&key=AIzaSyDvrSHps67YwiBew80UDfSQ0gepQ6wYvuI")
             .success(function(data) {
               for (var j = 0; j < tutors.length; j++) {
                 // assign appropriate distance to tutor
