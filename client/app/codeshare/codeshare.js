@@ -65,7 +65,7 @@ angular.module('codellama.codeshare', [])
       console.log('theme: ', theme)
       codeMirrors[0].setOption('theme', theme);
     };
-    var socket = io('http://localhost:8000');
+    var socket = io('http://107.170.10.76:8000');
     // var socket = io('http://107.170.10.76:8000');
     var partPath = $location.$$path.slice(7);
     var username = partPath.slice(0, partPath.indexOf('/'))
