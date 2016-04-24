@@ -877,3 +877,8 @@ i.inactive {
   height: 30px;
   margin: 5px;
 }
+
+.video {
+  width: 300px;
+  height: 300px;
+}
