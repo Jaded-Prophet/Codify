@@ -976,4 +976,9 @@ p .chat-status {
 
 .list-group-item {
   margin: 10px 0;
+}
 
+.video {
+  width: 300px;
+  height: 300px;
+}
