@@ -1,10 +1,18 @@
 angular.module('codellama.codeshare', [])
+<<<<<<< HEAD
 
 .controller('CodeshareController', function($scope, $location) {
   $scope.init = function() {
     $scope.addCodeshare();
   };
 
+=======
+.controller('CodeshareController', function($scope, $location) {
+  $scope.init = function() {
+    $scope.addCodeshare();
+  };
+
+>>>>>>> 503f27604d8a9fbb93b483273056073f6d13421d
   $scope.languages = [
     'select a language',
     'clike',
@@ -58,7 +66,10 @@ angular.module('codellama.codeshare', [])
     'zenburn',
   ];
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 503f27604d8a9fbb93b483273056073f6d13421d
   $scope.setLanguage = function(lang) {
     console.log('This is the language: ', lang);
     codeMirrors[0].setOption('mode', lang);
@@ -67,7 +78,11 @@ angular.module('codellama.codeshare', [])
     console.log('theme: ', theme)
     codeMirrors[0].setOption('theme', theme);
   };
+<<<<<<< HEAD
   var socket = io('http://localhost:8000');
+=======
+  var socket = io('http://107.170.10.76:8000');
+>>>>>>> 503f27604d8a9fbb93b483273056073f6d13421d
   // var socket = io('http://107.170.10.76:8000');
   var partPath = $location.$$path.slice(7);
   var username = partPath.slice(0, partPath.indexOf('/'))
@@ -136,7 +151,7 @@ angular.module('codellama.codeshare', [])
     return CodeMirror(document.getElementById('codeshare-input'), {
       value: '\'Write your code here\'',
       mode:  'javascript',
-      theme: 'ambiance',
+      theme: 'mdn-like',
       lineNumbers: true
     });
   }
@@ -265,6 +280,10 @@ angular.module('codellama.codeshare', [])
     }
   };
 })
+<<<<<<< HEAD
+=======
+
+>>>>>>> 503f27604d8a9fbb93b483273056073f6d13421d
 
 .directive('icecommLocal', function($sce) {
   return {
