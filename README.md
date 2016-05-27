@@ -6,6 +6,7 @@ Find programming help near you!
 
 1. [Team](#team)
 1. [Requirements](#requirements)
+1. [Technologies](#technolgoies) 
 1. [Development](#development)
     1. [Installing Dependencies](#installing-dependencies)
     1. [Tasks](#tasks)
@@ -21,9 +22,24 @@ Find programming help near you!
 - Node 5.9.1
 - MongoDB 3.2.4
 
-## Development
+## Technologies
+### Front End
+- AngularJS
+- Socket.io
+- CodeMirror
+- IceComm.io
+- Google Maps API
 
-### Installing Dependencies
+### Back End
+- NodeJS
+- ExpressJS
+- MongoDB
+
+### Deployment
+- Digital Ocean
+
+
+## Installing Dependencies
 
 From within the root directory:
 
@@ -41,18 +57,6 @@ See demoBackUp_readme.md for details
 ### Tasks
 - `gulp task`
 - `gulp start`
-
-
-## Future directions
-- Integrate Google Maps
-- Scheduling for both tutor and normals accounts
-- Handle images on front end (resize, crop)
-- Secure messaging between accounts
-- Add OAuth
-- Allow signin with username
-- Improve token authentication system
-- Use https
-- Stream images directly from the request POST to GridFS
 
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
