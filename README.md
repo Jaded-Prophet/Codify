@@ -4,18 +4,18 @@ Find programming help near you!
 
 ## Table of Contents
 
+1. [Team](#team)
 1. [Requirements](#requirements)
 1. [Development](#development)
     1. [Installing Dependencies](#installing-dependencies)
     1. [Tasks](#tasks)
-1. [Team](#team)
 1. [Contributing](#contributing)
 
-## Team (v1)
-  - __Product Owner__: [Vivian Chen](https://github.com/vichen)
-  - __Scrum Master__: [Adam Isom](https://github.com/adamrgisom)
-  - __Development Team Members__: [Roland Fung](https://github.com/rolandfung), [Fred Ryder](https://github.com/fredryder)
-
+## Team
+- <img src="https://avatars.githubusercontent.com/u/4149515?v=3" width="64"> [**Inje Yeo**] (https://github.com/byeo630)
+- <img src="https://avatars0.githubusercontent.com/u/11085115?v=3" width="64"> [**Steven Tran**](https://github.com/steventran06)
+- <img src="https://avatars1.githubusercontent.com/u/5761911?v=3" width="64"> [**Krista Moroder**](https://github.com/kmoroder)
+- <img src="https://avatars2.githubusercontent.com/u/12990522?v=3" width="64"> [**Tor Sinclair**](https://github.com/torsinclair)
 
 ## Requirements
 - Node 5.9.1
