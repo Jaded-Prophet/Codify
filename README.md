@@ -57,6 +57,7 @@ To load example data on a running instance of mongodb...
 See demoBackUp_readme.md for details
 
 ### Tasks
+- `mongod`
 - `gulp task`
 - `gulp start`
 
