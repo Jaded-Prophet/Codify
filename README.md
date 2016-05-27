@@ -11,6 +11,7 @@ Codify is a web app that connects students with code tutors. Students and code t
 1. [Development](#development)
     1. [Installing Dependencies](#installing-dependencies)
     1. [Tasks](#tasks)
+1. [System Architecture](#system-architecture)
 1. [Contributing](#contributing)
 
 ## Team
@@ -58,6 +59,9 @@ See demoBackUp_readme.md for details
 ### Tasks
 - `gulp task`
 - `gulp start`
+
+## System Architecture
+<img src="https://github.com/Jaded-Prophet/Codify/blob/master/README_IMGS/Codify.png?raw=true" width="300">
 
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
