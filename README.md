@@ -66,3 +66,6 @@ See demoBackUp_readme.md for details
 
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+
+## Troubleshooting
+If having a CORS issue, use the [Chrome plugin](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en)
