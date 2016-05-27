@@ -1,6 +1,6 @@
-# CodeTutor
+# Codify
 
-Find programming help near you!
+Codify is a web app that connects students with code tutors. Students and code tutors can type code with each other in a shared text editor and communicate over video chat.
 
 ## Table of Contents
 
